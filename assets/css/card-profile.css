@@ -1,0 +1,154 @@
+/* ============================================ */
+/*                 Principal                    */
+/* ============================================ */
+.principal {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ============================================ */
+/*           Section: Social Links              */
+/* ============================================ */
+ 
+
+.profile-card {
+    height: 36.25rem;
+    width: 20.625rem;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.profile-info { 
+    height: calc(50% - 20px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar-container {
+    height: 5.625rem;
+    width: 5.625rem;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-name {
+    color: var(--pure-white);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.profile-location {
+    color: var(--green-light);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.profile-bio {
+    color: var(--pure-white);
+    font-size: 14px;
+}
+
+
+/* ============================================ */
+/*          Section: Profile Information        */
+/* ============================================ */
+
+.social-links {
+    width: 100%;
+    height: 100%;
+}
+
+.list-social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 1rem; 
+}
+
+.item-social {
+  background-color: var(--gray-medium);
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in;
+}
+
+.item-social:hover {
+    background-color: var(--green-light);
+    cursor: pointer;
+}
+
+.item-social a {
+    text-decoration: none;
+    color: var(--pure-white);
+    font-weight: 700;
+}
+
+.item-social:hover a {
+    color: var(--primary-color);
+}
+
+/* ============================================ */
+/*                   FOOTER                     */
+/* ============================================ */
+
+.attribution {
+    color: white;
+}
+
+.attribution a {
+    color: orange;
+    text-decoration: none;
+}
+
+.attribution span {
+    color: yellow;
+}
+
+.attribution a:hover,
+.attribution a span:hover {
+    color: red;
+}
+
+/* ============================================ */
+/*                   DESKTOP                    */
+/* ============================================ */
+@media (min-width: 1440px) {
+    .profile-card {
+        height: 38.125rem;
+        width: 23.75rem;
+        padding: 30px;
+        gap: 1.8rem;
+    }
+}
+
+

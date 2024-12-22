@@ -1,0 +1,60 @@
+/* ==================== */
+/*      VARIABLES       */
+/* ==================== */
+:root {
+    /* Colors */
+    --primary-color:hsl(0, 0%, 8%);
+    --secondary-color: hsl(0, 0%, 12%);
+    --gray-medium: hsl(0, 0%, 20%); 
+    --pure-white: hsl(0, 0%, 100%); 
+    --green-light: hsl(75, 94%, 57%);
+
+    /* Typography */
+    --font-primary: 'Inter'; 
+    --font-secondary: 'Arial', sans-serif;
+    --font-size-base: 16px;
+    --spacing-small: 12px;
+}
+
+
+/* ==================== */
+/*     IMPORT FONTS     */
+/* ==================== */
+
+/* Inter Regular (Weight 400) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Inter SemiBold (Weight 600) */
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ==================== */
+/*       GENERAL        */
+/* ==================== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    background: var(--primary-color);
+    font-size: var(--font-size-base);
+}
